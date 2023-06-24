@@ -1,0 +1,22 @@
+/* Homepage.css */
+.categories-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+  }
+  
+  .categories {
+    display: flex;
+  }
+  
+  .category {
+    flex: 0 0 auto;
+    text-align: center;
+    margin-right: 20px;
+  }
+  
+  .category:last-child {
+    margin-right: 0;
+  }
+  
