@@ -5,7 +5,7 @@ import '../images/product1.jpg';
 import { useState } from 'react';
 
 
-function ProductList({addToCart}) {
+function ProductList() {
  
   const products = [
     {
@@ -51,7 +51,7 @@ function ProductList({addToCart}) {
               <h3>{product.title}</h3>
               <p>{product.description}</p>
               <Link to={`/product/${product.id}`}>View Details</Link>
-              <button onClick={() => addToCart(product)}>Add to Cart</button>
+              
               
             </div>
           </div>

@@ -1,0 +1,42 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.product-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .product-image {
+    width: 340px;
+    height: 500px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .product-details {
+    flex: 1;
+  }
+  
+  .product-title {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif; 
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif; 
+  }
+  
+  .contact-information {
+    margin-top: 20px;
+  }
+  
+  .contact-title {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif; 
+    margin-bottom: 10px;
+  }

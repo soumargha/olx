@@ -6,9 +6,11 @@ import ProductDetails from './components/ProductDetails ';
 import SellForm from './components/SellForm';
 import RentForm from './components/RentForm';
 import Footer from './components/Footer';
+
 import './App.css'
 
 function App() {
+  
   return (
     <Router>
       <div className="App">
